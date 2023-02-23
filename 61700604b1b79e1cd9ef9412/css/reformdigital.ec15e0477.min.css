@@ -4947,10 +4947,6 @@ strong {
 .footer-link.is--light[data-wf-focus-visible] {
   border-color: #dadada;
 }
-/* disable footer link */
-.footer-link {
-  pointer-events: none;
-}
 .padding-nav {
   padding-right: 40px;
   padding-left: 40px;
@@ -15019,4 +15015,14 @@ strong {
   font-weight: 500;
   font-style: normal;
   font-display: swap;
+}
+
+/* additionl ass */
+/* disable career links */
+.care{
+  pointer-events: none;
+}
+/* disable footer link */
+.footer-link {
+  pointer-events: none;
 }
